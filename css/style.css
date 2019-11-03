@@ -1,0 +1,29 @@
+:root {
+    --green-dark    : rgb(1, 143, 72);
+    --green-dark-t  : rgba(1, 143, 72, 0.301);
+    --green-dark-t-h: rgba(38, 202, 120, 0.301);
+    --green-light   : rgb(1, 243, 122);
+    --green-light-t : rgba(1, 243, 122, 0.356);
+    --green-intense : rgb(4, 255, 88);
+    --gray-light    : rgb(179, 179, 179);
+    --gray-dark     : rgb(97, 97, 97);
+    --gray-darker   : rgb(46, 46, 46);
+    --gray-darkest  : rgb(31, 31, 31);
+    --red-strong    : rgb(230, 24, 24);
+    --yellow-light  : rgb(241, 243, 107);
+    --yellow-dark   : rgb(201, 202, 121);
+    --orange-light  : #ffe894;
+}
+
+
+body {
+    background-color: var(--green-dark);
+}
+
+.main-jumbotron {
+    background-color: var(--green-light-t);
+}
+
+#main-navbar {
+    background-color: var(--orange-light);
+}
